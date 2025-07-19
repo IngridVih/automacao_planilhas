@@ -1,0 +1,10 @@
+# Ignorar ambiente virtual
+.venv/
+
+# Ignorar arquivos temporários
+__pycache__/
+*.pyc
+
+# Ignorar arquivos sensíveis ou gerados
+contas_a_pagar.xlsx
+.env
