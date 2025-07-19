@@ -35,4 +35,4 @@ Este projeto lê dados de um arquivo `.txt` e de uma planilha Excel existente, g
 1. **Clone o repositório:**
 ```bash
 git clone https://github.com/IngridVih/automacao_planilhas.git
-cd seu-repo
+cd automacao_planilhas
