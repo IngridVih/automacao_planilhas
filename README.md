@@ -39,15 +39,22 @@ cd automacao_planilhas
 ```
 2. **Crie e ative um ambiente virtual (No Linux/macOS/WSL)**
 ```
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 ```
 2. **Crie e ative um ambiente virtual (No Windows CMD ou PowerShell)**
 ```
-python -m venv .venv
+python3 -m venv .venv
 .venv\Scripts\activate
 ```
 3. **Instale as dependências**
 ```
 pip install -r requirements.txt
+```
+4. **Não esqueça de colocar seu email**
+```
+msg['From'] = 'SEUEMAIL597@gmail.com'
+msg['To'] = 'EMAILDESTINATARIO@gmail.com'
+
+smtp.login('SEUEMAIL@gmail.com', 'SUA SENHA')  # Use sua senha de app
 ```
