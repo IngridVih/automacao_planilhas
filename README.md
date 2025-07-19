@@ -36,3 +36,18 @@ Este projeto lê dados de um arquivo `.txt` e de uma planilha Excel existente, g
 ```bash
 git clone https://github.com/IngridVih/automacao_planilhas.git
 cd automacao_planilhas
+```
+2. **Crie e ative um ambiente virtual (No Linux/macOS/WSL)**
+```
+python -m venv .venv
+source .venv/bin/activate
+```
+2. **Crie e ative um ambiente virtual (No Windows CMD ou PowerShell)**
+```
+python -m venv .venv
+.venv\Scripts\activate
+```
+3. **Instale as dependências**
+```
+pip install -r requirements.txt
+```
